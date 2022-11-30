@@ -259,6 +259,10 @@ packer.startup({
     use({ "catppuccin/nvim", as = "catppuccin" })
     use("joshdick/onedark.vim")
     use("tomasr/molokai")
+    use("KeitaNakamura/neodark.vim")
+    use("titanzero/zephyrium")
+    use("shaunsingh/solarized.nvim")
+    use("rebelot/kanagawa.nvim")
 
     -- OceanicNext
     -- use({ "mhartington/oceanic-next", event = "VimEnter" })

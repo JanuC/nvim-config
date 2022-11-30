@@ -79,6 +79,7 @@ local M = {
     fold = {
       open = "Z",
       close = "zz",
+      create = "mm",
     },
 
     format = "<leader>f",

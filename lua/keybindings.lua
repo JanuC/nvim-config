@@ -124,6 +124,7 @@ end
 -- treesitter 折叠
 keymap("n", keys.fold.open, ":foldopen<CR>")
 keymap("n", keys.fold.close, ":foldclose<CR>")
+keymap("n", keys.fold.create, ":set foldmethod=indent<CR>")
 
 keymap("n", keys.format, "<cmd>lua vim.lsp.buf.formatting()<CR>")
 
