@@ -32,6 +32,9 @@ local opts_expr = {
   silent = true,
 }
 
+-- js 退出 insert 模式
+keymap("i", keys.i_esc, "<ESC>")
+
 -- 命令行下 Ctrl+j/k  上一个下一个
 keymap("c", keys.c_next_item, "<C-n>", opts_remap)
 keymap("c", keys.c_prev_item, "<C-p>", opts_remap)
@@ -51,6 +54,11 @@ keymap({ "v", "n" }, "g_", "$")
 keymap({ "n", "v" }, keys.n_v_5j, "5j")
 keymap({ "n", "v" }, keys.n_v_5k, "5k")
 
+keymap("v", keys.v_1j, ":m '>+1<CR>gv=gv")
+keymap("v", keys.v_1k, ":m '<-2<CR>gv=gv")
+
+-- 格式化
+keymap({ "n", "v" }, keys.n_v_formater, ":Format<CR>")
 -- ctrl u / ctrl + d  只移动9行，默认移动半屏
 -- keymap({ "n", "v" }, keys.n_v_10j, "10j")
 -- keymap({ "n", "v" }, keys.n_v_10k, "10k")

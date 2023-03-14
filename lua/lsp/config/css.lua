@@ -26,6 +26,12 @@ local opts = {
         unknownAtRules = "ignore",
       },
     },
+    vue = {
+      validate = true,
+      lint = {
+        unknownAtRules = "ignore",
+      },
+    },
   },
 }
 

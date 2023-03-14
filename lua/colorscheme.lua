@@ -1,4 +1,4 @@
-local colorscheme = "molokai"
+local colorscheme = "nightfox"
 -- tokyonight
 -- OceanicNext
 -- gruvbox

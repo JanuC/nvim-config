@@ -274,7 +274,7 @@ packer.startup({
     -- })
 
     -- zephyr
-    -- use("glepnir/zephyr-nvim")
+    use("glepnir/zephyr-nvim")
 
     -- nord
     -- use("shaunsingh/nord.nvim")
@@ -283,7 +283,7 @@ packer.startup({
     -- use("ful1e5/onedark.nvim")
 
     -- nightfox
-    -- use("EdenEast/nightfox.nvim")
+    use("EdenEast/nightfox.nvim")
 
     -------------------------------------------------------
     -- git
@@ -354,6 +354,7 @@ packer.startup({
       -- default_url_format = "https://mirror.ghproxy.com/https://github.com/%s",
       -- default_url_format = "https://gitcode.net/mirrors/%s",
       -- default_url_format = "https://gitclone.com/github.com/%s",
+      default_url_format = "git@github.com:%s",
     },
     -- display = {
     -- 使用浮动窗口显示

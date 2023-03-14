@@ -5,6 +5,8 @@ local M = {
 
     leader_key = " ",
 
+    i_esc = "jk",
+
     -- : 模式
     c_next_item = "<C-j>",
     c_prev_item = "<C-k>",
@@ -22,6 +24,11 @@ local M = {
     n_v_10k = "<C-u>",
     n_v_10j = "<C-d>",
 
+    n_v_formater = "<leader>ff",
+
+    v_1j = "J",
+    v_1k = "K",
+
     -- cmp 快捷键
     cmp_complete = "<A-.>",
     cmp_abort = "<A-,>",
@@ -36,7 +43,6 @@ local M = {
     snip_jump_prev = "<C-h>",
     snip_next_choice = "<C-j>",
     snip_prev_choice = "<C-k>",
-
     s_windows = {
 
       enable = true,
@@ -48,10 +54,10 @@ local M = {
       close_others = "so",
 
       -- 窗口跳转
-      jump_left = "<A-h>",
-      jump_right = "<A-l>",
-      jump_up = "<A-k>",
-      jump_down = "<A-j>",
+      -- jump_left = "H",
+      -- jump_right = "L",
+      -- jump_up = "K",
+      -- jump_down = "J",
 
       -- <leader> + hjkl 窗口之间跳转
       -- jump_left = "<leader>h",
@@ -97,7 +103,7 @@ local M = {
 
     enable = true,
 
-    toggle = "<A-m>",
+    toggle = "<leader>e",
     -- toggle = "<leader>m"
     edit = { "o", "<2-LeftMouse>" },
     system_open = "<CR>",
@@ -135,9 +141,9 @@ local M = {
 
     enable = true,
 
-    prev = "<C-h>",
-    next = "<C-l>",
-    close = "<C-w>",
+    prev = "H",
+    next = "L",
+    close = "W",
     -- close = "<leader>bc",
     close_left = "<leader>bh",
     close_right = "<leader>bl",
