@@ -335,6 +335,8 @@ packer.startup({
     -- use("jbyuki/one-small-step-for-vimkind")
     --[[ use("dstein64/vim-startuptime") ]]
 
+    -- markdown
+    use({ "iamcco/markdown-preview.nvim" })
     if paccker_bootstrap then
       packer.sync()
     end

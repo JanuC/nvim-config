@@ -54,10 +54,10 @@ local M = {
       close_others = "so",
 
       -- 窗口跳转
-      -- jump_left = "H",
-      -- jump_right = "L",
-      -- jump_up = "K",
-      -- jump_down = "J",
+      jump_left = "<C-h>",
+      jump_right = "<C-l>",
+      jump_up = "<C-k>",
+      jump_down = "<C-j>",
 
       -- <leader> + hjkl 窗口之间跳转
       -- jump_left = "<leader>h",
